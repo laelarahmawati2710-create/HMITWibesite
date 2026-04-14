@@ -1,0 +1,12 @@
+# Meminta input dari pengguna
+nilai = int(input("Masukkan nilai mahasiswa: "))
+
+# Logika percabangan untuk menentukan indeks
+if nilai >= 85 and nilai <= 100:
+    print("Nilai A")
+elif nilai >= 70 and nilai <= 84:
+    print("Nilai B")
+elif nilai >= 55 and nilai <= 69:
+    print("Nilai C")
+else:
+    print("Nilai D")
